@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+
+<menuitem id="menu_hospital_root"
+      name="Hospital" 
+      sequence="10"/>
+      <!-- name attribute that display left side -->
+      <!-- lower the sequence -dispay first and higher the sequence -display last -->
+
+
+      <menuitem id="menu_patient_master"
+      name="Patient Details"
+      parent="menu_hospital_root" 
+      sequence="10"/>
+
+    <menuitem
+      id="menu_appointment_master"
+      name="Appointments"
+      parent="menu_hospital_root"
+      sequence="20"/>
+
+      <menuitem id="menu_configuration"
+              name="Configurations"
+              parent="menu_hospital_root"
+              sequence="100"/>
+
+</odoo>
